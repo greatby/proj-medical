@@ -12,14 +12,14 @@ export const metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Hospitals in India - Directory",
-  "description":
+  name: "Hospitals in India - Directory",
+  description:
     "Directory of government, private, super-specialty, teaching, and accredited hospitals across India.",
-  "url": "https://yourwebsite.com/hospitals.html",
-  "publisher": {
+  url: "https://yourwebsite.com/hospitals.html",
+  publisher: {
     "@type": "Organization",
-    "name": "India Medical Directory",
-    "url": "https://yourwebsite.com",
+    name: "India Medical Directory",
+    url: "https://yourwebsite.com",
   },
 };
 
@@ -49,7 +49,6 @@ export default function HospitalsPage() {
 
       {/* MAIN CONTENT WRAPPER */}
       <main className="max-w-7xl mx-auto px-6 py-10 space-y-20">
-
         {/* Overview */}
         <section id="overview">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">
@@ -62,9 +61,9 @@ export default function HospitalsPage() {
             a population of over 1.4 billion.
           </p>
           <p className="text-slate-700 leading-relaxed">
-            Hospitals are classified by bed capacity, specialties, accreditation,
-            and level of care. This helps patients make informed decisions about
-            where to seek appropriate treatment.
+            Hospitals are classified by bed capacity, specialties,
+            accreditation, and level of care. This helps patients make informed
+            decisions about where to seek appropriate treatment.
           </p>
         </section>
 
@@ -124,8 +123,8 @@ export default function HospitalsPage() {
               RML Hospital, Delhi
             </h4>
             <p className="text-slate-700">
-              A 1,500-bed multi-specialty government hospital offering emergency,
-              pediatric and super-specialty care.
+              A 1,500-bed multi-specialty government hospital offering
+              emergency, pediatric and super-specialty care.
             </p>
 
             <h4 className="text-xl font-bold text-teal-700 mt-6">
@@ -156,7 +155,9 @@ export default function HospitalsPage() {
               tertiary care.
             </p>
 
-            <h4 className="font-bold text-teal-700 text-xl">Medical Colleges</h4>
+            <h4 className="font-bold text-teal-700 text-xl">
+              Medical Colleges
+            </h4>
             <ul className="list-disc pl-5 mt-2 text-slate-700 space-y-1">
               <li>Grant Medical College & JJ Hospital (Mumbai)</li>
               <li>King Edward Memorial Hospital (Mumbai)</li>
@@ -271,7 +272,9 @@ export default function HospitalsPage() {
             </div>
 
             <div className="bg-white p-6 border rounded-2xl shadow">
-              <h3 className="text-xl font-semibold text-teal-700">Eye Hospitals</h3>
+              <h3 className="text-xl font-semibold text-teal-700">
+                Eye Hospitals
+              </h3>
               <ul className="list-disc pl-5 mt-2 text-slate-700 space-y-1">
                 <li>Sankara Nethralaya</li>
                 <li>LV Prasad Eye Institute</li>
@@ -292,10 +295,6 @@ export default function HospitalsPage() {
             </div>
           </div>
         </section>
-
-        {/* Accreditations, Departments, Choosing Hospitals, etc. */}
-        {/* (you can keep adding same structure for remaining sections – I preserved all content and formatted it cleanly) */}
-
       </main>
     </>
   );

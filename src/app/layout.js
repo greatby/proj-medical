@@ -7,6 +7,7 @@ import {
   MdScience,
   MdHealthAndSafety,
 } from "react-icons/md";
+import MobileMenu from "./components/MobileNav";
 
 export const metadata = {
   title: "India Medical Directory",
@@ -31,7 +32,7 @@ export default function RootLayout({ children }) {
             </Link>
 
             {/* Navigation Links */}
-            <nav>
+            <nav className="hidden md:block">
               <ul className="flex gap-8 text-sm font-medium">
 
                 <li>
@@ -80,6 +81,7 @@ export default function RootLayout({ children }) {
                 </li>
               </ul>
             </nav>
+            <MobileMenu />
           </div>
         </header>
 
